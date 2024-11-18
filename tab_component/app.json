@@ -1,5 +1,6 @@
 {
   "expo": {
+    "schema":"your-app-schema",
     "name": "expoNavigation",
     "slug": "expoNavigation",
     "version": "1.0.0",
@@ -12,6 +13,7 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "scheme": "tab-navigator",
     "ios": {
       "supportsTablet": true
     },
@@ -23,6 +25,9 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
